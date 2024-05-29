@@ -75,27 +75,39 @@ After setting up the project, you can navigate through the different sections of
 Here's a brief overview of the project's structure:
 
 /src
+
 /components
 
-- Header.jsx
-- Navigation.jsx
-- Footer.jsx
-- NewsSection.jsx
-  /pages
-- MainPage.jsx
-- Games.jsx
-- PlaceholderPage.jsx
-- TriviaPage.jsx
-  /styles
-- App.css
-- Navigation.css
-- NewsSection.css
+   - Header.jsx
+   - Navigation.jsx
+   - Footer.jsx
+   - NewsSection.jsx
+   - QuestionCard.jsx
+
+/pages
+
+   - MainPage.jsx
+   - Games.jsx
+   - PlaceholderPage.jsx
+   - TriviaPage.jsx
+
+/styles
+
+   - App.css
+   - Navigation.css
+   - NewsSection.css
+   - QuestionCard.css
 
 App.jsx
+
 index.jsx
+
 /public
+
 index.html
+
 images/
+
 README.md
 
 ## Contributing
