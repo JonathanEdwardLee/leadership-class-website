@@ -1,0 +1,20 @@
+.games-page {
+    background-color: #000;
+    color: #fff;
+  }
+  
+  .game-card {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .game-card .btn-primary {
+    background-color: orange;
+    border-color: orange;
+  }
+  
+  .game-card .btn-primary:hover {
+    background-color: #fff;
+    color: #000;
+  }
+  

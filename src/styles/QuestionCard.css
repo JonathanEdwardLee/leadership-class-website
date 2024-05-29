@@ -1,0 +1,72 @@
+/* General styling */
+.app {
+    text-align: center;
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+  }
+  
+  /* Question card styling */
+  .question-card {
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 50px;
+    margin: 20px 0;
+    border-radius: 5px;
+  }
+  
+  /* Button styling */
+  button {
+    background-color: #9B723B;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    font-family: 'Special Elite', sans-serif;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: white;
+    color: #9B723B;
+  }
+  
+  /* Options list styling */
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: 'Special Elite', sans-serif;
+  }
+  
+  /* Footer styling */
+  .footer {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  /* High score input styling */
+  .high-score-input {
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+  }
+  
+  /* Question card specific styling */
+  .question-card h2 {
+    margin-bottom: 80px;
+  }
+  
+  .question-card .options {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  

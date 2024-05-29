@@ -5,7 +5,9 @@ import Navigation from './components/Navigation';
 import Footer from './components/Footer';
 import MainPage from './pages/MainPage';
 import PlaceholderPage from './pages/PlaceholderPage';
-import './App.css';
+import Games from './pages/Games';
+import TriviaPage from './pages/TriviaPage';
+import './styles/App.css';
 
 function App() {
   return (
@@ -19,7 +21,8 @@ function App() {
         <Route path="/videos" element={<PlaceholderPage link="https://www.youtube.com/@LeadershipClass" linkText="Visit our YouTube" />} />
         <Route path="/tour" element={<PlaceholderPage link="https://bnds.us/cwaboo" linkText="View our Tour Dates" />} />
         <Route path="/contact" element={<PlaceholderPage link="https://linktr.ee/leadershipclassmusic" linkText="Contact Us" />} />
-        <Route path="/guestbook" element={<PlaceholderPage link="https://jonathanedwardlee.pythonanywhere.com/" linkText="Visit our Guestbook" />} />
+        <Route path="/games" element={<Games />} />
+        <Route path="/trivia" element={<TriviaPage />} />
       </Routes>
       <Footer />
     </Router>
