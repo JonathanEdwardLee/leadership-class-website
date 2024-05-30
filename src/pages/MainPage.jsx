@@ -11,7 +11,7 @@ function MainPage() {
       </div>
       <NewsSection />
       <div className="content">
-        <img src={logoImage} alt="Mushroom Lady Leadership Class Logo" className="band-logo" />
+        <img src={logoImage} alt="Mushroom Lady Leadership Class Logo" className="band-logo" style={{ maxWidth: '100%', height: 'auto' }} />
       </div>
     </div>
   );

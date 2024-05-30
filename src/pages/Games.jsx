@@ -6,7 +6,7 @@ const games = [
   {
     title: "Guestbook",
     description: "Sign and view messages from other fans.",
-    link: "https://your-guestbook-url"
+    link: "https://JonathanEdwardLee.pythonanywhere.com"
   },
   {
     title: "Music Theory Trivia",

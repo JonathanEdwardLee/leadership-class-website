@@ -1,37 +1,41 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import { Navbar, Nav, Container } from 'react-bootstrap';
+import { LinkContainer } from 'react-router-bootstrap';
 import '../styles/Navigation.css';
 
 const Navigation = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-      <div className="container-fluid justify-content-center">
-        <ul className="navbar-nav">
-          <li className="nav-item">
-            <Link className="nav-link" to="/">Home</Link>
-          </li>
-          <li className="nav-item">
-            <Link className="nav-link" to="/music">Music</Link>
-          </li>
-          <li className="nav-item">
-            <Link className="nav-link" to="/merch">Merch</Link>
-          </li>
-          <li className="nav-item">
-            <Link className="nav-link" to="/videos">Videos</Link>
-          </li>
-          <li className="nav-item">
-            <Link className="nav-link" to="/tour">Tour</Link>
-          </li>
-          <li className="nav-item">
-            <Link className="nav-link" to="/contact">Contact</Link>
-          </li>
-          <li className="nav-item">
-              <Link className="nav-link" to="/games">Games</Link>
-          </li>
-        </ul>
-      </div>
-    </nav>
+    <Navbar bg="dark" variant="dark" expand="lg" className="navbar-custom">
+      <Container>
+        <Navbar.Brand href="/">Leadership Class</Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="ml-auto">
+            <LinkContainer to="/">
+              <Nav.Link>Home</Nav.Link>
+            </LinkContainer>
+            <LinkContainer to="/music">
+              <Nav.Link>Music</Nav.Link>
+            </LinkContainer>
+            <LinkContainer to="/merch">
+              <Nav.Link>Merch</Nav.Link>
+            </LinkContainer>
+            <LinkContainer to="/videos">
+              <Nav.Link>Videos</Nav.Link>
+            </LinkContainer>
+            <LinkContainer to="/tour">
+              <Nav.Link>Tour</Nav.Link>
+            </LinkContainer>
+            <LinkContainer to="/contact">
+              <Nav.Link>Contact</Nav.Link>
+            </LinkContainer>
+            <LinkContainer to="/guestbook">
+              <Nav.Link>Guestbook</Nav.Link>
+            </LinkContainer>
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
   );
 }
 
