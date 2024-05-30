@@ -39,7 +39,7 @@ const NewsSection = () => {
                 <Card.Title>{item.title}</Card.Title>
                 <Card.Subtitle className="mb-2 text-muted">{item.date}</Card.Subtitle>
                 <Card.Text>{item.description}</Card.Text>
-                <Button variant="orange" href={item.link} target="_blank" rel="noopener noreferrer">Learn More</Button>
+                <Button className="btn-custom" href={item.link} target="_blank" rel="noopener noreferrer">Learn More</Button>
               </Card.Body>
             </Card>
           </Col>

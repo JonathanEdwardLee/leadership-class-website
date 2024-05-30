@@ -30,7 +30,7 @@ const Games = () => {
               <Card.Body>
                 <Card.Title>{game.title}</Card.Title>
                 <Card.Text>{game.description}</Card.Text>
-                <Button variant="primary" href={game.link} target="_blank" rel="noopener noreferrer">Play</Button>
+                <Button className="btn-custom" href={game.link} target="_blank" rel="noopener noreferrer">Play</Button>
               </Card.Body>
             </Card>
           </Col>

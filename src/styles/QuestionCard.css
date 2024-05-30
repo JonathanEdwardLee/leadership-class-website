@@ -1,10 +1,4 @@
-/* General styling */
-.app {
-    text-align: center;
-    width: 90%;
-    max-width: 800px;
-    margin: 20px auto;
-  }
+
   
   /* Question card styling */
   .question-card {
@@ -13,23 +7,7 @@
     margin: 20px 0;
     border-radius: 5px;
   }
-  
-  /* Button styling */
-  button {
-    background-color: #9B723B;
-    color: black;
-    border: none;
-    padding: 10px 20px;
-    margin: 5px;
-    cursor: pointer;
-    font-family: 'Special Elite', sans-serif;
-    border-radius: 5px;
-  }
-  
-  button:hover {
-    background-color: white;
-    color: #9B723B;
-  }
+
   
   /* Options list styling */
   ul {
@@ -45,11 +23,7 @@
     font-family: 'Special Elite', sans-serif;
   }
   
-  /* Footer styling */
-  .footer {
-    text-align: center;
-    margin: 20px 0;
-  }
+
   
   /* High score input styling */
   .high-score-input {
@@ -65,7 +39,7 @@
   }
   
   .question-card .options {
-    display: flex;
+    
     flex-direction: row;
     align-items: center;
   }

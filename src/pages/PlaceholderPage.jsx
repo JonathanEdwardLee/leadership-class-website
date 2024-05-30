@@ -8,7 +8,7 @@ const PlaceholderPage = ({ link, linkText }) => {
         <Col md={8}>
           <h2>Page Coming Soon</h2>
           <p>For now, visit this link:</p>
-          <Button href={link} target="_blank" rel="noopener noreferrer" className="btn-orange">
+          <Button className="btn-custom" href={link} target="_blank" rel="noopener noreferrer" >
             {linkText}
           </Button>
         </Col>

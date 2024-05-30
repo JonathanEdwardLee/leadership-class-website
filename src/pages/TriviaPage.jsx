@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import '../styles/QuestionCard.css';
+import '../styles/App.css';
 import QuestionCard from '../components/QuestionCard';
 
 const App = () => {

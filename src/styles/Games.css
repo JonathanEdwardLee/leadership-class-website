@@ -8,13 +8,5 @@
     color: #fff;
   }
   
-  .game-card .btn-primary {
-    background-color: orange;
-    border-color: orange;
-  }
-  
-  .game-card .btn-primary:hover {
-    background-color: #fff;
-    color: #000;
-  }
+
   

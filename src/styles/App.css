@@ -7,6 +7,13 @@ body {
   padding: 0;
 }
 
+.app {
+  text-align: center;
+  width: 90%;
+  max-width: 800px;
+  margin: 20px auto;
+}
+
 /* Hero section styles */
 .hero {
   background: url('images/LC_band_photo.jpg') no-repeat center center/cover;
@@ -47,11 +54,39 @@ body {
   padding: 10px 0;
 }
 
-/* Button styles */
-.btn-orange {
+/* Button styling */
+.btn-custom {
   background-color: #9B723B;
-  color: #000;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+  font-family: 'Special Elite', sans-serif;
+  border-radius: 5px;
 }
+
+.btn-custom:hover {
+  background-color: white;
+  color: #9B723B;
+}
+
+button {
+  background-color: #9B723B;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+  font-family: 'Special Elite', sans-serif;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: white;
+  color: #9B723B;
+}
+
 
 /* Link styles */
 a {

@@ -6,8 +6,7 @@ import '../styles/Navigation.css';
 const Navigation = () => {
   return (
     <Navbar bg="dark" variant="dark" expand="lg" className="navbar-custom">
-      <Container>
-        <Navbar.Brand href="/">Leadership Class</Navbar.Brand>
+      <Container className="justify-content-center">
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ml-auto">
@@ -29,8 +28,8 @@ const Navigation = () => {
             <LinkContainer to="/contact">
               <Nav.Link>Contact</Nav.Link>
             </LinkContainer>
-            <LinkContainer to="/guestbook">
-              <Nav.Link>Guestbook</Nav.Link>
+            <LinkContainer to="/games">
+              <Nav.Link>Games</Nav.Link>
             </LinkContainer>
           </Nav>
         </Navbar.Collapse>
