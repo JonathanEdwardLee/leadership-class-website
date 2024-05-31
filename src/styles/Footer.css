@@ -1,0 +1,44 @@
+.footer {
+    background: #222;
+    color: white;
+    padding: 20px 0;
+    font-family: 'Special Elite', sans-serif;
+  }
+  
+  .footer .social-links a {
+    color: white;
+    margin: 0 10px;
+    font-size: 24px;
+    transition: color 0.3s;
+  }
+  
+  .footer .social-links a:hover {
+    color: #9B723B;
+  }
+  
+  .footer .home-link {
+    display: block;
+    margin-top: 10px;
+    color: #9B723B;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  .footer .home-link:hover {
+    color: #ddd;
+  }
+  
+  .footer .small-text {
+    font-size: 14px;
+    color: #bbb;
+  }
+  
+  .footer .small-text a {
+    color: #9B723B;
+    text-decoration: none;
+  }
+  
+  .footer .small-text a:hover {
+    color: #ddd;
+  }
+  

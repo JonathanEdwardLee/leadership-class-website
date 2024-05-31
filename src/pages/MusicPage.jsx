@@ -10,8 +10,8 @@ const MusicPage = () => {
         <Tab eventKey="bandcamp" title="Bandcamp" className="custom-tab">
           <div className="embed-container">
             <iframe 
-              style={{ border: '0', width: '350px', height: '786px' }} 
-              src="https://bandcamp.com/EmbeddedPlayer/album=1843728153/size=large/bgcol=333333/linkcol=e32c14/transparent=true/" 
+              style={{ border: '0', width: '100%', height: '472px' }} 
+              src="https://bandcamp.com/EmbeddedPlayer/album=1843728153/size=large/bgcol=333333/linkcol=e99708/artwork=none/transparent=true/" 
               seamless
               title="Bandcamp">
               <a href="https://leadershipclass.bandcamp.com/album/demos-we-are-recording-ourselves-for-cool-people-to-listen-to">
@@ -51,12 +51,12 @@ const MusicPage = () => {
         <Tab eventKey="apple" title="Apple Music" className="custom-tab">
           <div className="embed-container">
             <iframe 
-              allow="autoplay *; encrypted-media *;" 
+              allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" 
               frameBorder="0" 
               height="450" 
-              style={{ width: '100%', maxWidth: '660px', overflow: 'hidden', background: 'transparent', borderRadius: '20px' }} 
-              sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation-by-user-activation" 
-              src="https://embed.music.apple.com/us/artist/leadership-class/1605840385"
+              style={{ width: '100%', maxWidth: '660px', overflow: 'hidden', borderRadius: '10px' }} 
+              sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" 
+              src="https://embed.music.apple.com/us/album/here-we-go-single/1659586681"
               title="Apple Music">
             </iframe>
           </div>
