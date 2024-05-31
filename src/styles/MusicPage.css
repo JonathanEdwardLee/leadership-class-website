@@ -1,0 +1,30 @@
+.music-page {
+    color: #fff;
+    text-align: center;
+  }
+  
+  .custom-tabs .nav-link {
+    background-color: #9B723B;
+    color: #000;
+    border: none;
+    margin: 5px;
+    padding: 10px 20px;
+    font-family: 'Special Elite', sans-serif;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .custom-tabs .nav-link:hover,
+  .custom-tabs .nav-link:focus,
+  .custom-tabs .nav-link.active {
+    background-color: white;
+    color: #9B723B;
+  }
+  
+  .embed-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  

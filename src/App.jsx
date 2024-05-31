@@ -7,6 +7,7 @@ import MainPage from './pages/MainPage';
 import PlaceholderPage from './pages/PlaceholderPage';
 import Games from './pages/Games';
 import TriviaPage from './pages/TriviaPage';
+import MusicPage from './pages/MusicPage';
 import './styles/App.css';
 
 function App() {
@@ -16,7 +17,7 @@ function App() {
       <Navigation />
       <Routes>
         <Route path="/" element={<MainPage />} />
-        <Route path="/music" element={<PlaceholderPage link="https://leadershipclass.bandcamp.com/" linkText="Visit our Bandcamp" />} />
+        <Route path="/music" element={<MusicPage />} />
         <Route path="/merch" element={<PlaceholderPage link="https://leadershipclass.myshopify.com/" linkText="Visit our Shopify" />} />
         <Route path="/videos" element={<PlaceholderPage link="https://www.youtube.com/@LeadershipClass" linkText="Visit our YouTube" />} />
         <Route path="/tour" element={<PlaceholderPage link="https://bnds.us/cwaboo" linkText="View our Tour Dates" />} />
