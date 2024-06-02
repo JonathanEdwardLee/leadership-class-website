@@ -1,10 +1,24 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 import { Container, Tabs, Tab } from 'react-bootstrap';
 import '../styles/MusicPage.css';
 
 const MusicPage = () => {
   return (
     <Container className="music-page">
+      <Helmet>
+        <title>Listen to Our Music - Leadership Class</title>
+        <meta name="description" content="Discover the latest music by Leadership Class, an alternative rock band from Springfield, MO. Listen on Bandcamp, Spotify, Apple Music, and Amazon Music." />
+        <meta property="og:title" content="Listen to Our Music - Leadership Class" />
+        <meta property="og:description" content="Discover the latest music by Leadership Class, an alternative rock band from Springfield, MO. Listen on Bandcamp, Spotify, Apple Music, and Amazon Music." />
+        <meta property="og:image" content="https://leadershipclassmusic.com/assets/mushroom.lady.sticker.1000-DtV3Wjl_.png" />
+        <meta property="og:url" content="https://leadershipclassmusic.com/music" />
+        <meta property="og:type" content="website" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Listen to Our Music - Leadership Class" />
+        <meta name="twitter:description" content="Discover the latest music by Leadership Class, an alternative rock band from Springfield, MO. Listen on Bandcamp, Spotify, Apple Music, and Amazon Music." />
+        <meta name="twitter:image" content="https://leadershipclassmusic.com/assets/mushroom.lady.sticker.1000-DtV3Wjl_.png" />
+      </Helmet>
       <h2 className="text-center my-5">Listen to Our Music</h2>
       <Tabs defaultActiveKey="bandcamp" id="music-tabs" className="mb-3 custom-tabs">
         <Tab eventKey="bandcamp" title="Bandcamp" className="custom-tab">
