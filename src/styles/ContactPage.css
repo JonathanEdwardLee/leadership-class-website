@@ -1,0 +1,49 @@
+.contact-page {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .contact-page h2 {
+    color: #9B723B;
+  }
+  
+  .form-control {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .form-control::placeholder {
+    color: #bbb;
+  }
+  
+  .btn-primary {
+    background-color: #9B723B;
+    border: none;
+  }
+  
+  .btn-primary:hover {
+    background-color: #e99708;
+  }
+  
+  .about-leadership-class {
+    margin-top: 40px;
+  }
+  
+  .about-leadership-class h1 {
+    color: #9B723B;
+  }
+  
+  .about-leadership-class p {
+    color: #fff;
+    font-size: 22px; 
+    line-height: 1.6;
+    
+  }
+  .orange-text {
+    color: #9B723B; /* Adjust the hex code to your preferred shade of orange */
+  }
+  
+  
